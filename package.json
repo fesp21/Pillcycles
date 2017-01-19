@@ -147,7 +147,6 @@
   },
   {
   "scripts": {
-    // ...
     "predeploy": "npm run build",
     "deploy": "./scripts/deploy.sh"
   }
