@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "scaleconf-colombia",
-  "homepage": "http://scaleconfco.com/",
-  "twitter": "scaleconfco",
-  "facebook": "scaleconfco",
+  "name": "pillcycle",
+  "homepage": "http://pillcycle.com/",
+  "twitter": "pillcycle",
+  "facebook": "pillcycle",
   "repository": "",
   "googleAnalyticsUA": "UA-84203198-1",
   "scripts": {
@@ -144,5 +144,12 @@
     "react-google-analytics": "0.2.0",
     "react-leaflet": "^1.0.0-rc.3",
     "tachyons": "4.5.5"
+  },
+  {
+  "scripts": {
+    // ...
+    "predeploy": "npm run build",
+    "deploy": "./scripts/deploy.sh"
   }
+}
 }
